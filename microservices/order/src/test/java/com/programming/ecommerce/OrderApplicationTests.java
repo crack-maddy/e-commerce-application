@@ -1,4 +1,4 @@
-package com.programming.ecommerce.order;
+package com.programming.ecommerce;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
