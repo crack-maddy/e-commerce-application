@@ -1,3 +1,5 @@
+server:
+  port: 8050
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5433/product
@@ -20,18 +22,3 @@ spring:
     user: ${spring.datasource.username}
     password: ${spring.datasource.password}
 
-  cloud:
-    config:
-      override-system-properties: false
-
-eureka:
-  instance:
-    hostname: localhost
-  client:
-    service-url:
-      defaultZone: http://localhost:8761/eureka/
-    register-with-eureka: true
-    fetch-registry: true
-
-server:
-  port: 8050
